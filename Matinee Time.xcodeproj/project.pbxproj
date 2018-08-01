@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E30B3CF2111E42E005F0641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E30B3B92111E42E005F0641 /* Assets.xcassets */; };
+		4E30B3D02111E42E005F0641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E30B3BA2111E42E005F0641 /* LaunchScreen.storyboard */; };
+		4E30B3D12111E42E005F0641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E30B3BC2111E42E005F0641 /* Main.storyboard */; };
+		4E30B3D22111E42E005F0641 /* PopularMovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E30B3C12111E42E005F0641 /* PopularMovieViewModel.swift */; };
+		4E30B3D32111E42E005F0641 /* PopularMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E30B3C32111E42E005F0641 /* PopularMovie.swift */; };
+		4E30B3D42111E42E005F0641 /* PopularMoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E30B3C62111E42E005F0641 /* PopularMoviesTableViewCell.swift */; };
+		4E30B3D52111E42E005F0641 /* PopularMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E30B3C82111E42E005F0641 /* PopularMoviesViewController.swift */; };
+		4E30B3D62111E42E005F0641 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E30B3CA2111E42E005F0641 /* Constants.swift */; };
+		4E30B3D72111E42E005F0641 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E30B3CB2111E42E005F0641 /* AppDelegate.swift */; };
+		4E30B3D92111E42E005F0641 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E30B3CE2111E42E005F0641 /* WebService.swift */; };
+		539E3FB9DC7C6385D28EFA17 /* Pods_Matinee_Time.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4187982772AAB59B7477EB /* Pods_Matinee_Time.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F4187982772AAB59B7477EB /* Pods_Matinee_Time.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Matinee_Time.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EC6A1E80CE49F9F7D277C1 /* Pods-Matinee Time.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matinee Time.release.xcconfig"; path = "Pods/Target Support Files/Pods-Matinee Time/Pods-Matinee Time.release.xcconfig"; sourceTree = "<group>"; };
+		4E30B3902111B18D005F0641 /* Matinee Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matinee Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E30B3B92111E42E005F0641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E30B3BB2111E42E005F0641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E30B3BD2111E42E005F0641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E30B3C12111E42E005F0641 /* PopularMovieViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularMovieViewModel.swift; sourceTree = "<group>"; };
+		4E30B3C32111E42E005F0641 /* PopularMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularMovie.swift; sourceTree = "<group>"; };
+		4E30B3C62111E42E005F0641 /* PopularMoviesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularMoviesTableViewCell.swift; sourceTree = "<group>"; };
+		4E30B3C82111E42E005F0641 /* PopularMoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularMoviesViewController.swift; sourceTree = "<group>"; };
+		4E30B3CA2111E42E005F0641 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4E30B3CB2111E42E005F0641 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E30B3CC2111E42E005F0641 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E30B3CE2111E42E005F0641 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		DC3B375ADD49EE6AA2D38620 /* Pods-Matinee Time.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matinee Time.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Matinee Time/Pods-Matinee Time.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E30B38D2111B18D005F0641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539E3FB9DC7C6385D28EFA17 /* Pods_Matinee_Time.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14AB4512B66C4A94053257F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC3B375ADD49EE6AA2D38620 /* Pods-Matinee Time.debug.xcconfig */,
+				21EC6A1E80CE49F9F7D277C1 /* Pods-Matinee Time.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E30B3872111B18D005F0641 = {
+			isa = PBXGroup;
+			children = (
+				4E30B3B82111E42E005F0641 /* Matinee */,
+				4E30B3912111B18D005F0641 /* Products */,
+				14AB4512B66C4A94053257F6 /* Pods */,
+				D6FB695AF87A7DE1E4C9DB89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E30B3912111B18D005F0641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E30B3902111B18D005F0641 /* Matinee Time.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E30B3B82111E42E005F0641 /* Matinee */ = {
+			isa = PBXGroup;
+			children = (
+				4E30B3B92111E42E005F0641 /* Assets.xcassets */,
+				4E30B3BA2111E42E005F0641 /* LaunchScreen.storyboard */,
+				4E30B3BC2111E42E005F0641 /* Main.storyboard */,
+				4E30B3BE2111E42E005F0641 /* Movies */,
+				4E30B3CB2111E42E005F0641 /* AppDelegate.swift */,
+				4E30B3CC2111E42E005F0641 /* Info.plist */,
+				4E30B3CD2111E42E005F0641 /* Services */,
+			);
+			path = Matinee;
+			sourceTree = "<group>";
+		};
+		4E30B3BE2111E42E005F0641 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				4E30B3BF2111E42E005F0641 /* Popular Movies */,
+				4E30B3C92111E42E005F0641 /* UTILS */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		4E30B3BF2111E42E005F0641 /* Popular Movies */ = {
+			isa = PBXGroup;
+			children = (
+				4E30B3C02111E42E005F0641 /* ViewModels */,
+				4E30B3C22111E42E005F0641 /* Model */,
+				4E30B3C42111E42E005F0641 /* Views */,
+			);
+			path = "Popular Movies";
+			sourceTree = "<group>";
+		};
+		4E30B3C02111E42E005F0641 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4E30B3C12111E42E005F0641 /* PopularMovieViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4E30B3C22111E42E005F0641 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E30B3C32111E42E005F0641 /* PopularMovie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E30B3C42111E42E005F0641 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E30B3C52111E42E005F0641 /* TableViewCells */,
+				4E30B3C72111E42E005F0641 /* ViewControllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E30B3C52111E42E005F0641 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4E30B3C62111E42E005F0641 /* PopularMoviesTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		4E30B3C72111E42E005F0641 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E30B3C82111E42E005F0641 /* PopularMoviesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4E30B3C92111E42E005F0641 /* UTILS */ = {
+			isa = PBXGroup;
+			children = (
+				4E30B3CA2111E42E005F0641 /* Constants.swift */,
+			);
+			path = UTILS;
+			sourceTree = "<group>";
+		};
+		4E30B3CD2111E42E005F0641 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4E30B3CE2111E42E005F0641 /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D6FB695AF87A7DE1E4C9DB89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F4187982772AAB59B7477EB /* Pods_Matinee_Time.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E30B38F2111B18D005F0641 /* Matinee Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E30B3A22111B190005F0641 /* Build configuration list for PBXNativeTarget "Matinee Time" */;
+			buildPhases = (
+				284F44A7E63B04273C831FFA /* [CP] Check Pods Manifest.lock */,
+				4E30B38C2111B18D005F0641 /* Sources */,
+				4E30B38D2111B18D005F0641 /* Frameworks */,
+				4E30B38E2111B18D005F0641 /* Resources */,
+				00621775996D132A37DEEB49 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Matinee Time";
+			productName = Assignment;
+			productReference = 4E30B3902111B18D005F0641 /* Matinee Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E30B3882111B18D005F0641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Prabhakar;
+				TargetAttributes = {
+					4E30B38F2111B18D005F0641 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4E30B38B2111B18D005F0641 /* Build configuration list for PBXProject "Matinee Time" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E30B3872111B18D005F0641;
+			productRefGroup = 4E30B3912111B18D005F0641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E30B38F2111B18D005F0641 /* Matinee Time */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E30B38E2111B18D005F0641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E30B3D12111E42E005F0641 /* Main.storyboard in Resources */,
+				4E30B3CF2111E42E005F0641 /* Assets.xcassets in Resources */,
+				4E30B3D02111E42E005F0641 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00621775996D132A37DEEB49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Matinee Time/Pods-Matinee Time-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Matinee Time/Pods-Matinee Time-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		284F44A7E63B04273C831FFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Matinee Time-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E30B38C2111B18D005F0641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E30B3D72111E42E005F0641 /* AppDelegate.swift in Sources */,
+				4E30B3D62111E42E005F0641 /* Constants.swift in Sources */,
+				4E30B3D92111E42E005F0641 /* WebService.swift in Sources */,
+				4E30B3D32111E42E005F0641 /* PopularMovie.swift in Sources */,
+				4E30B3D42111E42E005F0641 /* PopularMoviesTableViewCell.swift in Sources */,
+				4E30B3D22111E42E005F0641 /* PopularMovieViewModel.swift in Sources */,
+				4E30B3D52111E42E005F0641 /* PopularMoviesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E30B3BA2111E42E005F0641 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E30B3BB2111E42E005F0641 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4E30B3BC2111E42E005F0641 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E30B3BD2111E42E005F0641 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E30B3A02111B190005F0641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E30B3A12111B190005F0641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E30B3A32111B190005F0641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3B375ADD49EE6AA2D38620 /* Pods-Matinee Time.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5H4H7D2K3;
+				INFOPLIST_FILE = "$(SRCROOT)/Matinee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Prabhakar.Assignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E30B3A42111B190005F0641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21EC6A1E80CE49F9F7D277C1 /* Pods-Matinee Time.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5H4H7D2K3;
+				INFOPLIST_FILE = "$(SRCROOT)/Matinee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Prabhakar.Assignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E30B38B2111B18D005F0641 /* Build configuration list for PBXProject "Matinee Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E30B3A02111B190005F0641 /* Debug */,
+				4E30B3A12111B190005F0641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E30B3A22111B190005F0641 /* Build configuration list for PBXNativeTarget "Matinee Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E30B3A32111B190005F0641 /* Debug */,
+				4E30B3A42111B190005F0641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E30B3882111B18D005F0641 /* Project object */;
+}

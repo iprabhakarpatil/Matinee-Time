@@ -1,0 +1,6 @@
+framework module Pods_Matinee_Time {
+  umbrella header "Pods-Matinee Time-umbrella.h"
+
+  export *
+  module * { export * }
+}
